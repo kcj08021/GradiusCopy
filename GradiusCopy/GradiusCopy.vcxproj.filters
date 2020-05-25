@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Default">
+      <UniqueIdentifier>{8f121128-aad4-418c-850e-beed2620221c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{ec63c515-2a00-4c73-a854-491c742a51bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{f06cf3e2-1fa9-4c42-aeb6-5b33991c34d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{936070ef-4f01-489a-9299-b0e970501eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Player">
+      <UniqueIdentifier>{b0135ed1-df75-4a84-a4de-ec8668b1ed15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Bullet">
+      <UniqueIdentifier>{b43b0b5e-a66e-468d-8142-ea2ca163ca8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\DoubleBullet">
+      <UniqueIdentifier>{96af1633-a9f0-43c1-b6ad-de28a56d2f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Missile">
+      <UniqueIdentifier>{d05aaecf-d5e3-40b1-a12f-ba5e0e9c52f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Laser">
+      <UniqueIdentifier>{fdae00c4-e36c-4910-aded-120ec113d1b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Shield">
+      <UniqueIdentifier>{41708c1b-9bb0-4928-8b52-c460aeb5faf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{ca61913a-9786-482e-aa9e-38e547134217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\AbstractFactory">
+      <UniqueIdentifier>{96806e91-82e5-4737-b37d-e83835cd94a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ObjectManager">
+      <UniqueIdentifier>{0f086c3e-f828-440c-a1cc-632a6f9bd0dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\KeyManager">
+      <UniqueIdentifier>{46dad6c1-517d-4987-8d36-3c9139f0b845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\TextureManager">
+      <UniqueIdentifier>{f4319ac1-b311-4683-8730-5a00f056dd02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Map">
+      <UniqueIdentifier>{2e57d579-e286-41de-962e-7414fe8b1682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Boom">
+      <UniqueIdentifier>{0001d5a2-a813-4831-9cfd-2b78e287f8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\TextureManager\Texture">
+      <UniqueIdentifier>{2cf02d2d-b024-4e3e-81d1-52a4f17d9a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI">
+      <UniqueIdentifier>{edce037f-9316-468d-b74c-339a0036d0bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Define">
+      <UniqueIdentifier>{be7075a0-3cde-489c-a8e9-63faf4f87e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\EffectManager">
+      <UniqueIdentifier>{4daa9963-6022-46b4-9b4b-d63068d1984c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Effect">
+      <UniqueIdentifier>{20c75852-f6ee-4d9e-8d9b-f52ab14102f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\AddOn">
+      <UniqueIdentifier>{f63f0852-ac8c-467c-915a-4e51734a3137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Monster">
+      <UniqueIdentifier>{743b21f6-2900-49e3-9285-b979c55f5aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Monster\BigCore">
+      <UniqueIdentifier>{5886ac2b-427e-43d7-9697-86ffbd56494b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Monster\DE">
+      <UniqueIdentifier>{c367ee00-adba-449e-910b-b47dfc23b3af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Monster\Ducker">
+      <UniqueIdentifier>{2e96ba97-b104-40c8-8b19-f934dd84de1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Monster\Garun">
+      <UniqueIdentifier>{afb01698-9c20-4838-bdca-f67251d4690c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Monster\Minian">
+      <UniqueIdentifier>{4f8c13d6-5003-434e-9452-8c82816f7146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Monster\Pence">
+      <UniqueIdentifier>{a625a942-74f0-4924-9b4c-1fc4dd3e71a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Monster\Rugal">
+      <UniqueIdentifier>{3438cdb5-3a19-4e82-a159-b55ff9ef0397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Radian">
+      <UniqueIdentifier>{63ceb41b-8c73-46d6-8d08-1ba41f440fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\PatternManager">
+      <UniqueIdentifier>{08c17812-1d10-4c11-8ee1-11765f03f682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Monster\Jumper">
+      <UniqueIdentifier>{09e70bc4-79b7-4042-bb1c-f09439d5bc74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Monster\EnemyBullet">
+      <UniqueIdentifier>{fd6864d7-4c09-465e-bd2d-0e42c6f7bed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\CollisionManager">
+      <UniqueIdentifier>{6f33f2f8-5578-4586-8207-0b453e437b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\MapGround">
+      <UniqueIdentifier>{967a8d80-a292-488a-b4c1-8586769095bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Item">
+      <UniqueIdentifier>{2b5a5c76-f7f2-4ae2-b424-5df37280d96d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\MapObject">
+      <UniqueIdentifier>{e36c634a-546a-4b20-8306-cdbfd8172338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Title">
+      <UniqueIdentifier>{6d335ea1-4ecc-4411-be3b-507cd6965974}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Define.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>GameObject\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="GradiusCopy.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="AddOn.h">
+      <Filter>GameObject\AddOn</Filter>
+    </ClInclude>
+    <ClInclude Include="DBullet.h">
+      <Filter>GameObject\DoubleBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>GameObject\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.h">
+      <Filter>GameObject\Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>GameObject\Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>Manager\KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>Manager\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Manager\ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Manager\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Manager\TextureManager\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>GameObject\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Boom.h">
+      <Filter>GameObject\Boom</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyCodeDefine.h">
+      <Filter>Header\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="FlagDefine.h">
+      <Filter>Header\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageWStringDefine.h">
+      <Filter>Header\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Manager\EffectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>GameObject\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>GameObject\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Big_Core.h">
+      <Filter>GameObject\Monster\BigCore</Filter>
+    </ClInclude>
+    <ClInclude Include="DE.h">
+      <Filter>GameObject\Monster\DE</Filter>
+    </ClInclude>
+    <ClInclude Include="Ducker.h">
+      <Filter>GameObject\Monster\Ducker</Filter>
+    </ClInclude>
+    <ClInclude Include="Garun.h">
+      <Filter>GameObject\Monster\Garun</Filter>
+    </ClInclude>
+    <ClInclude Include="Jumper.h">
+      <Filter>GameObject\Monster\Jumper</Filter>
+    </ClInclude>
+    <ClInclude Include="Minian.h">
+      <Filter>GameObject\Monster\Minian</Filter>
+    </ClInclude>
+    <ClInclude Include="Pence.h">
+      <Filter>GameObject\Monster\Pence</Filter>
+    </ClInclude>
+    <ClInclude Include="Rugal.h">
+      <Filter>GameObject\Monster\Rugal</Filter>
+    </ClInclude>
+    <ClInclude Include="Radian.h">
+      <Filter>Manager\Radian</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternManager.h">
+      <Filter>Manager\PatternManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBullet.h">
+      <Filter>GameObject\Monster\EnemyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CollsionManager.h">
+      <Filter>Manager\CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectDefine.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGround.h">
+      <Filter>GameObject\MapGround</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>GameObject\MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>GameObject\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Title2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>GameObject\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="GradiusCopy.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="AddOn.cpp">
+      <Filter>GameObject\AddOn</Filter>
+    </ClCompile>
+    <ClCompile Include="DBullet.cpp">
+      <Filter>GameObject\DoubleBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>GameObject\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
+      <Filter>GameObject\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>GameObject\Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>Manager\KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Manager\ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Manager\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Manager\TextureManager\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>GameObject\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Boom.cpp">
+      <Filter>GameObject\Boom</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>Manager\EffectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>GameObject\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Big_Core.cpp">
+      <Filter>GameObject\Monster\BigCore</Filter>
+    </ClCompile>
+    <ClCompile Include="DE.cpp">
+      <Filter>GameObject\Monster\DE</Filter>
+    </ClCompile>
+    <ClCompile Include="Ducker.cpp">
+      <Filter>GameObject\Monster\Ducker</Filter>
+    </ClCompile>
+    <ClCompile Include="Garun.cpp">
+      <Filter>GameObject\Monster\Garun</Filter>
+    </ClCompile>
+    <ClCompile Include="Jumper.cpp">
+      <Filter>GameObject\Monster\Jumper</Filter>
+    </ClCompile>
+    <ClCompile Include="Minian.cpp">
+      <Filter>GameObject\Monster\Minian</Filter>
+    </ClCompile>
+    <ClCompile Include="Pence.cpp">
+      <Filter>GameObject\Monster\Pence</Filter>
+    </ClCompile>
+    <ClCompile Include="Rugal.cpp">
+      <Filter>GameObject\Monster\Rugal</Filter>
+    </ClCompile>
+    <ClCompile Include="Radian.cpp">
+      <Filter>Manager\Radian</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>GameObject\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternManager.cpp">
+      <Filter>Manager\PatternManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBullet.cpp">
+      <Filter>GameObject\Monster\EnemyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CollsionManager.cpp">
+      <Filter>Manager\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGround.cpp">
+      <Filter>GameObject\MapGround</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>GameObject\MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>GameObject\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Title2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Default</Filter>
+    </Image>
+    <Image Include="GradiusCopy.ico">
+      <Filter>Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GradiusCopy.rc">
+      <Filter>Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
